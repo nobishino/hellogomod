@@ -1,6 +1,8 @@
 package hellogomod
 
+import "rsc.io/quote"
+
 // Hello returns Hello, world.
 func Hello() string {
-	return "Hello, world."
+	return quote.Hello()
 }
